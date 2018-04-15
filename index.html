@@ -464,7 +464,7 @@
 <p>配置完成后保存文件退出。</p>
 </li>
 <li><p>将本地文件提交到GitHub Pages输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo clean    //删除旧的public文件</span><br><span class="line">hexo d -g     //生成新的public + 开始部署</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean    	//删除旧的public文件</span><br><span class="line">hexo g		//生成新的public</span><br><span class="line">hexo d     	//开始部署</span><br></pre></td></tr></table></figure>
 <p>如果上面的命令不成功，则需要安装<code>hexo-deployer-git</code>扩展<code>npm install hexo-deployer-git --save</code>,然后再运行上述命令。</p>
 <p>经过一段时间的等待后，可以看到提示<code>INFO  Deploy done: git</code>，表示部署成功，接下来可以访问你自己的Github Pages（<code>username.github.io</code>），而不是本地的地址了，接下来就可以看到Hexo和GitHub Pages已经成功关联了。</p>
 </li>
